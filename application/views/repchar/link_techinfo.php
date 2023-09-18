@@ -1,0 +1,1 @@
+<a href="/razbor/<?php echo $slug ?>">Комплектующие</a>

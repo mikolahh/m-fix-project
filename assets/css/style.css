@@ -1,0 +1,791 @@
+
+.logotype p a{
+	font-size: 3.3em;
+	letter-spacing: 15px;
+	font-family: times new roman;	
+	text-align: center;	
+}
+
+	.button-upp{
+		margin-bottom: 40px;
+	}
+
+
+
+.header a {
+	color: #f0ad4e;
+	text-decoration: none;
+} 
+
+.h1 {
+	letter-spacing: 15px;
+	font-size: 2.6em;
+	font-family: times new roman;
+	text-align: center;
+
+}
+
+.header p {
+	color: white !important;
+	font-size: 90%;
+	letter-spacing: 3px;
+	text-align: center;
+} 
+
+
+
+
+/* Начало настроек */
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: #fafe00;
+	overflow-y: visible!important;
+
+}
+
+ .nav-pills>li>a {
+	color: #150fff;
+} 
+
+.nav-pills>li>a:hover {
+	background-color: #fbf9fe;
+}
+.dropdown-menu {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.dropdown-menu>li>a {
+	color:  #150fff;
+	background-color: #fafe00;
+}
+.dropdown-menu>li>a:hover {
+	background-color: #fbf9fe;
+}
+.navbar-toggle:hover {
+  background-color: white;
+}
+.call {
+	text-align: center;
+   color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;   
+   background-color: yellow;
+   font-size: 1.1em;
+   font-family: Century Gothic;
+   margin-bottom: 10px;
+
+
+}
+.call:hover {
+	background-color: white;
+	text-decoration: none;
+}
+
+.viber {
+	color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: yellow;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   margin-left: 60px;
+   font-family: Century Gothic;
+
+  
+
+}
+.viber:hover {
+	background-color: white;
+	text-decoration: none;
+}
+.google {
+	color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: yellow;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-left: 30px;
+
+}
+.google:hover {
+	background-color: white;
+	text-decoration: none;
+}
+.yandex {
+	color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: yellow;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-left: 30px;
+}
+.yandex:hover {
+	background-color: white;
+	text-decoration: none;
+}
+.question {
+	color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: yellow;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-left: 30px;
+   font-size: 1.3em;
+
+}
+.question:hover {
+	background-color: white;
+	text-decoration: none;
+}
+.review {
+	color: black;
+   border: solid 1px;
+   border-radius: 5px;
+   background-color: yellow;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 0.95em;
+   margin-left: 12px;
+   font-size: 0.9em;
+   }
+.review:hover {
+	background-color: white;
+	text-decoration: none;
+}
+
+.navbar-collapse.in {
+    overflow-y: visible!important;
+}
+
+#panno {
+	height: auto;	
+	padding-top: 10px;
+	background: url(/assets/img/panno/panno_blue_last-min.jpg);
+	margin-bottom: 5px;
+}
+
+@media screen and (min-width: 338px) and ( max-width: 449px ) {
+  #panno {
+  	padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 450px) and ( max-width: 627px ) {
+  #panno {
+  	padding-left: 20%;
+  }
+}
+#logo {
+
+	width: 310px;
+	height: 310px;
+}
+
+@media screen and (min-width: 330px) and ( max-width: 354px ) {
+  #logo {
+
+  	width: 280px;
+  	height: 280px;  	
+  }
+}
+@media screen and (min-width: 628px) and ( max-width: 631px ) {
+  #logo {
+
+  	width: 290px;
+  	height: 310px;  	
+  }
+}
+
+.part_product_img {
+	margin: 3px 3px 3px 3px;
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Конец настроек */ 
+
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%;
+	text-align: center;
+}
+.wrapper p {
+	font-size: 20px;
+}
+
+
+
+
+html, body {
+	height: 100%;
+}
+
+
+/* Для вывода моделей девайсов */
+
+.repairs_block {
+	text-align: center;
+	border-radius: 5px;
+	border: solid 3px grey;
+	margin: 3px 3px 3px 3px;
+	width: 210px;
+}
+
+.repairs_block img {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	border-radius: 5px;	
+	border: solid 2px grey;  
+	width: 170px;
+	height: 250px;
+}
+.repair_label {
+	/* padding: 2%; */
+	margin-bottom: 3px;
+	text-align: center;
+	 /* white-space: nowrap!important; */
+	overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap; 
+  font-size: 1em;
+  font-weight: bolder;	
+}
+.repair_label a {
+	color: black;
+	/* text-decoration: none; */
+}
+.repair_label a:hover {
+	color: blue;
+	/* text-decoration: none; */
+}
+
+.repairs_block_main {
+	text-align: center;
+	border-radius: 5px;
+	border: solid 3px grey;
+	margin: 3px 3px 3px 3px;
+	width: 280px;
+}
+
+.repairs_block_main img {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	border-radius: 5px;	
+	width: 250px;
+	 border: solid 2px grey;  
+	
+}
+.repair_label_main {
+	padding: 2%;
+	margin-bottom: 4%;
+	text-align: center;
+
+		  font-size: 15px;
+		  font-weight: bolder; 	
+}
+.repair_label_main a {
+	color: black;
+	/* text-decoration: none; */
+}
+.repair_label_main a:hover {
+	color: blue;
+	/* text-decoration: none; */
+}
+
+.repairs_block_brands {
+	text-align: center;
+	border-radius: 5px;
+	border: solid 3px grey;
+	margin: 3px 3px 3px 3px;
+	width: 130px;}
+
+.repairs_block_brands img {
+	margin-bottom: 5px;
+	margin-top: 10px;	
+	border-radius: 5px;	
+	border: solid 2px grey;  
+	width: 97px;
+	height: 67px;
+}
+.repair_label_brands {
+	padding: 2%;
+	margin-bottom: 4%;
+	text-align: center;
+	
+  font-size: 20px;
+  font-weight: bolder;	
+}
+.repair_label_brands a {
+
+	color: black;
+	/* text-decoration: none; */
+}
+.repair_label_brands a:hover {
+	color: blue;
+	/* text-decoration: none; */
+}
+
+/* для products */
+
+.products_category {
+	text-align: center;
+	border-radius: 5px;
+	border: solid 3px grey;
+	margin: 10px 10px 10px 10px;
+	width: 250px;
+	height: 250px;
+
+
+}
+
+.products_category img {
+	margin-top: 15px;
+	margin-bottom: 10px;	
+	border-radius: 5px;	
+	border: solid 2px grey;  
+	width: 200px;
+	height: 150px;
+}
+.products_category_label {	
+	text-align: center;
+
+  font-size: 1em;
+  font-weight: bolder;	
+}
+.products_category_label a {
+
+	color: black;
+	/* text-decoration: none; */
+}
+.products_category_label a:hover {
+	color: blue;
+	/* text-decoration: none; */
+}
+
+ /*  для каталога */
+
+.phones_brands img {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	
+	border-radius: 5px;	
+	border: solid 2px grey;  
+	width: 136px;
+	height: 102px;
+}
+
+
+
+
+
+
+
+
+.repairs_block_apple {
+	text-align: center;
+	border-radius: 5px;
+	border: solid 5px grey;
+	margin: 3px 3px 3px 3px;
+	width: 240px;
+	height: 285px;
+}
+
+.repairs_block_apple img {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: solid 3px grey;
+	border-radius: 5px;	 
+	width: 195px;
+	height: 225px;
+}
+
+.repair_label_apple {
+	padding: 2%;
+	margin-bottom: 4%;
+	text-align: center;
+	
+  font-size: 20px;
+  font-weight: bolder;	
+}
+
+.repair_label_apple a {
+
+	color: black;
+	/* text-decoration: none; */
+}
+
+.repair_label_apple a:hover {
+	color: blue;
+	/* text-decoration: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacts_block img {
+	max-width: 85%;
+	height: auto;
+	border-radius: 5px;
+
+}
+
+
+
+.connectors_block {
+	border: solid 2px grey;
+	border-radius: 5px;
+	margin:  3px 3px 3px 3px;
+	width: 200px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.connectors_block a img {
+
+	
+	margin-top: 5%;
+	
+	border: solid 1px grey; 
+	border-radius: 3px;
+	width: 190px;
+	height: 140px;
+	
+
+}
+
+.connectors_label {
+	/* margin-bottom: 5%; */
+	margin-top: 5%;
+	font-size: 15px;
+	font-weight: bolder;
+	  
+}
+
+
+
+
+
+
+
+
+.type_connectors_label {
+	
+	margin-top: 2%;
+	margin-bottom: 7%;
+	font-size: 15px;
+	font-weight: bolder;
+	
+}
+
+  /* Вывод моделей для разъема зарядки
+   */
+.tab_view_block_devcon {
+	padding-left: 0px;
+	
+
+	border: solid 3px grey;
+	border-radius: 3px;
+	margin: 2px 2px 2px 2px;
+	width: 138px;
+	height: 100px;
+	/* vertical-align: baseline; */
+	overflow: hidden auto;
+}
+
+
+.tab_view_block_devcon table {
+width: 120px;
+	height: 100px;
+	
+
+
+} 
+
+
+
+
+       /*  Вывод моделей в раскрывающемся списке 
+        */
+.tab_view_block_names {
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	border: solid 3px grey;
+	border-radius: 3px;
+	margin: 3px 3px 3px 3px;
+	width: 130px;
+	height: 120px;
+	/* vertical-align: baseline; */
+	overflow: hidden auto;
+}
+ 
+
+
+.tab_view_block_names table {
+width: 120px;
+	
+} 
+
+.tab_view_block_names table tr td a {
+
+color: black;
+}
+
+.tab_view_block_names table tr td a:hover {
+
+	color: blue;
+}
+
+
+.tab_view_block_search {
+
+	padding-top: 0px; 
+	padding-right: 0px;
+	padding-left: 0px;
+	border: solid 3px grey;
+	border-radius: 3px;
+	margin: 3px 3px 3px 3px;
+	width: 195px;
+	height: 150px;
+	/* vertical-align: baseline; */
+	overflow: hidden auto;
+}
+
+.tab_view_block_search table {
+
+	width: 195px;
+}
+
+.tab_view_block_search table tr td a {
+
+color: black;
+}
+
+.tab_view_block_search table tr td a:hover {
+
+	color: blue;
+}
+
+
+
+
+
+
+
+
+.img_devcon a img {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+.margin-8 {
+	margin-top: 8%;
+}
+
+
+/* .panel {
+	border: none;
+}
+
+.panel-body {
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+	background-color: #f0ad4e;
+	color: black;
+	border-color: transparent;
+} */
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+/* .panel-heading button{
+	background-color: #f0ad4e;
+	color: black;
+} */
+
+
+/* .form-control {
+	border-radius: 0px;
+}
+
+.input-lg {
+	font-size: 14px;
+} */
+
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+.badge {
+	background-color: #000000;
+}
+
+
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span{
+	margin-right: 3%;
+}
+
+/* textarea.form-control {
+	height: 200px;
+} */
+
+
+/* .table tbody>tr>td.vert-align {
+	vertical-align: middle;
+} */
+
+
+footer {
+	color: #666;
+	background: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	color: #efefef;
+}
+
+
+
+
+.table {
+    margin: 10px 10px; 
+	border: double 3px black;
+	border-radius: 5px;
+}
+
+	.table caption {
+	
+	text-align: center; vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: black;
+	
+	}
+.table thead tr  {	
+	background-color:#f0ad4e ;	}
+
+	.table thead tr th {	
+	text-align: center; vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: black;	}
+
+
+
+
+.table tbody tr td {
+	text-align: center; vertical-align: middle;
+	font-family: Times New Roman;
+	border: 1px solid black;
+	color: black;
+}
+
+.get_devices_block a	{
+ margin: 1px 1px 1px 1px;
+ width: 100px;
+ 
+}
+
+
+// for get_dev_block
+
+
+
+.panel-title a {
+
+	/* background: #e2caca; */
+     
+	 
+	 padding-bottom: 0px; 
+	padding-top: 0px;
+}
+
+.panel-title a :hover {
+	
+	background: black;
+	color: white;
+	 
+	
+}
+
+
+
+.panel-title a p{
+	 margin-bottom: 0px;
+	 
+	 height: 30px;
+
+} 
+
+
+
+
+

@@ -1,0 +1,1 @@
+<a href="/assets/img/products/<?php echo $slug_category ?>/<?php echo $slug_product ?>/<?php echo $slug_product ?>.jpg" target="blank"><img src="/assets/img/products/<?php echo $slug_category ?>/<?php echo $slug_product ?>/<?php echo $slug_product ?>.jpg" widht=200px height=150px alt="изображение товара" title="Нажмите для увеличения:  <?php echo $name_h1 ?> "></a>

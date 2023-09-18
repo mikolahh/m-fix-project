@@ -1,0 +1,1 @@
+<a href="/assets/img/devices/<?php echo $slug_device ?>/<?php echo $slug_part ?>.jpg" target="blank"><img src="/assets/img/devices/<?php echo $slug_device ?>/<?php echo $slug_part ?>.jpg" widht=200px height=150px alt="изображение детали" title="Нажмите для увеличения:  <?php echo $h1 ?> "></a>
